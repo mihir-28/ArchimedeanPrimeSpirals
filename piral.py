@@ -31,7 +31,7 @@ def archimedean_spiral(t):
     return x, y
 
 # Generate prime numbers up to a certain limit
-limit = 100000
+limit = 150000
 primes = generate_primes(limit)
 
 # Calculate spiral coordinates for prime numbers
@@ -40,7 +40,7 @@ x, y = archimedean_spiral(theta)
 
 # Plot the spiral
 plt.figure(figsize=(40, 40), dpi=600)
-plt.plot(x, y, 'o', color='cyan', markersize=0.5)
+plt.plot(x, y, 'o', color='cyan', markersize=1)
 plt.axis('off')
 
 # Set black background
